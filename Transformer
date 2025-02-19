@@ -1,0 +1,8 @@
+Input text -> Tokenized into Tokens
+Input Embedding -> Converts tokens into dense vectors
+Positional Encoding -> Adds position information to embedding
+Encoder -> Processes tokens with self attention and Feed Forward Layer
+Decoder -> Takes encoder output + previously generate tokens to predict the next token
+Positional Encoding (agin in Decoder) - Helps decoder to understand the token order
+Output Embedding and Softmax - Converts Decoder output into a probility distribution over a vocabulary
+Prediction -> The most probable next token selected. 
